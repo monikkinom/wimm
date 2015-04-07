@@ -3,7 +3,8 @@ A financial status updation and retrieval php based api endpoint.
 
 Originally created for Innoz's 55444.in service : http://55444.in/apps/wimm/
 A user would text 55444 and the message would be forwarded to the api endpoint which would then work on the data. 
-Wrote this back in 2013 when I began with php development.
+SMS was being used heavily till last year as Smartphone penetration was low and internet costs were high. Now, everything has changed so posting the code here.
+Wrote this back in 2013 when I began with php development (that's my excuse for not using PDO :P)
 
 ## App Details
 
@@ -18,7 +19,7 @@ The message format is going to be
 	_____________________
 
 
-	TYPE 2 : VIEWING DATA (ONLY FOR USERS with $new==false)
+	TYPE 2 : VIEWING DATA (For returning users)
 	---------------------
 	*********************
 	view today -- Display list of all transactions today
