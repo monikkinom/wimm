@@ -2,7 +2,7 @@
 A financial status updation and retrieval php based api endpoint.
 
 Originally created for Innoz's 55444.in service : http://55444.in/apps/wimm/
-A user would text 55444 and the message would be forwarded to the api point which would then work on the data. 
+A user would text 55444 and the message would be forwarded to the api endpoint which would then work on the data. 
 Wrote this back in 2013 when I began with php development.
 
 ## App Details
